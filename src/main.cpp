@@ -16,6 +16,8 @@ void sendVolumeUp(){
 
     Serial.println("Sending volume up key ...");
     bleKeyboard.write(KEY_MEDIA_VOLUME_UP);
+    // See here for other key definitions : https://github.com/T-vK/ESP32-BLE-Keyboard#api-docs
+
     delay(100);
     bleKeyboard.releaseAll();
   } else {

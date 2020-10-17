@@ -24,6 +24,8 @@ Uses the excellent ESP32-BLE-Keyboard library from @T-vk
 
 https://github.com/T-vK/ESP32-BLE-Keyboard
 
+See here for other key definitions: https://github.com/T-vK/ESP32-BLE-Keyboard#api-docs 
+
 ----
 
 
