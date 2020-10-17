@@ -6,6 +6,8 @@ A very simple ESP32 demo application which sends the Volume up key when the boot
 
 The volume keys can be used on an iPhone to take a photo in the Camera app.
 
+Uses PlatformIO in VSCode. But easy enough to use the same code in an Arduino IDE project. 
+
 ### HowTo
 
 - See: `BleKeyboard` initialisation in `main.cpp` for naming options.

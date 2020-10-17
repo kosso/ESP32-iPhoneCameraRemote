@@ -1,12 +1,12 @@
 #include <Arduino.h>
 
-// @kosso 2020. 
+// @kosso 2020.  
 
 // Uses the ESP32-BLE-Keyboard library from https://github.com/T-vK/ESP32-BLE-Keyboard 
 
 #include <BleKeyboard.h>
 
-BleKeyboard bleKeyboard("KOSSP32", "Kosso", 80); // Name, Manufacturer, battery level (apparently cannot be changed. )
+BleKeyboard bleKeyboard("ESP32-CamRemote", "Espressif", 80); // Name, Manufacturer, battery level (apparently cannot be changed. )
 
 #define BTN_PIN 0 // boot button
 
